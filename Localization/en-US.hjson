@@ -1,0 +1,54 @@
+Mods: {
+	SonicArmor: {
+		Items: {
+			SonicHelmet: {
+				SetBonus: Mods.SonicArmor.Items.SonicHelmet.SetBonus
+				DisplayName: Sonic Helmet
+				Tooltip: ""
+			}
+
+			SonicBreastplate: {
+				DisplayName: Sonic Breastplate
+				Tooltip: ""
+			}
+
+			SonicLeggings: {
+				DisplayName: Sonic Leggings
+				Tooltip: ""
+			}
+		}
+		NPCs: {
+			SONIC: {
+				DisplayName: Hedgehog
+
+				Chat: {
+				Normal1: Running around at the speed of sound! Sonic's the name, speed's my game!
+				Normal2: If you think you can beat me in a race with those rusty old boots, you're outta your mind!
+				Normal3: I don't like being here right now, that fatso might be onto something and I wouldn't know!
+				}
+
+				TownNPCMood: {
+					Content: I'm ok right now.
+					NoHome: I'm used to not having a home, but I wouldn't mind having one!
+					FarFromHome: Man, my house's pretty far away. Not a problem tho.
+					LoveSpace: I LOVE having too much space to run around!
+					DislikeCrowded: There're too many people around, it's annoying! Now I know how those animals feel like inside those Capsules...
+					HateCrowded: Ok, now this amount of people is ridicoulus!
+					LoveBiome: I love {BiomeName}, it reminds me of Green Hill...
+					LikeBiome: "{BiomeName} is pretty chill, reminds me of Ice Cap!"
+					DislikeBiome: I don't like {BiomeName}...
+					HateBiome: I hate water, it scares me....
+					LoveNPC: Do you think {NPCName} notices me?
+					LikeNPC: I like {NPCName} because they remind me of "Tails".
+					DislikeNPC: '''"{NPCName} keeps trying to pull a spike out of me and sell it... Would you please tell him to stop?"'''
+					HateNPC: I hate all the loud noises caused by {NPCName} and his explosives! I just want peace and quiet!
+					LikeNPC_Princess: "{NPCName} is a princess? That's cool!"
+					Princess_LovesNPC: "{NPCName} is so cute and cocky. I love that about him!"
+				}
+
+				# This key is generated and used when the "Census" mod is enabled: It allows the user to see the spawn condition of this town NPC in the Housing UI
+				Census.SpawnCondition: Have either an {$Items.ExampleItem.DisplayName} [i:ExampleMod/ExampleItem] or an {$Items.ExampleBlock.DisplayName} [i:ExampleMod/ExampleBlock] in your inventory
+			}
+		}
+	}
+}

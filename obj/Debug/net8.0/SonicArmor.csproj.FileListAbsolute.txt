@@ -1,0 +1,5 @@
+/Users/miguel/Library/Application Support/Terraria/tModLoader/ModSources/SonicArmor/obj/Debug/net8.0/SonicArmor.csproj.AssemblyReference.cache
+/Users/miguel/Library/Application Support/Terraria/tModLoader/ModSources/SonicArmor/obj/Debug/net8.0/SonicArmor.GeneratedMSBuildEditorConfig.editorconfig
+/Users/miguel/Library/Application Support/Terraria/tModLoader/ModSources/SonicArmor/obj/Debug/net8.0/SonicArmor.AssemblyInfoInputs.cache
+/Users/miguel/Library/Application Support/Terraria/tModLoader/ModSources/SonicArmor/obj/Debug/net8.0/SonicArmor.AssemblyInfo.cs
+/Users/miguel/Library/Application Support/Terraria/tModLoader/ModSources/SonicArmor/obj/Debug/net8.0/SonicArmor.csproj.CoreCompileInputs.cache

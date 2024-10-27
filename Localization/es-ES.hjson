@@ -1,0 +1,83 @@
+Mods: {
+	SonicArmor: {
+		Items: {
+			SonicHelmet: {
+				SetBonus: Mods.SonicArmor.Items.SonicHelmet.SetBonus
+				DisplayName: Casco de Sonic
+				Tooltip: ""
+			}
+
+			SonicBreastplate: {
+				DisplayName: Pechera de Sonic
+				Tooltip: ""
+			}
+
+			SonicLeggings: {
+				DisplayName: Piernas de Sonic
+				Tooltip: ""
+			}
+		}
+		NPCs: {
+			SONIC: {
+				DisplayName: Erizo
+
+				Chat: {
+					Normal1: ¡Corriendo a la velocidad del sonido! ¡Sonic es mi nombre, la rapidez es lo mío!
+					Normal2: Si crees que puedes vencerme con esas viejas botas, ¡estás fuera de tus cabales!
+					Normal3: No me gusta estar aquí ahora, ese panzón podría estar en algo, ¡y yo no sabría!
+				}
+
+				TownNPCMood: {
+					Content: Estoy bien.
+					NoHome: Estoy acostumbrado a no tener hogar, ¡pero no me importaría tener uno!
+					FarFromHome: Viejo, ¡mi casa está muy lejos! Bueno, no es problema para mí.
+					LoveSpace: ¡Me ENCANTA tener tanto espacio para correr!
+					DislikeCrowded: ¡Hay mucha gente acá, es muy molesto! Ahora se cómo se sienten los animales en esas Cápsulas...
+					HateCrowded: ¡Ok, la cantidad de personas apretujadas aquí es RIDÍCULA!
+					LoveBiome: Me encanta el {BiomeName}, me recuerda a Green Hill...
+					LikeBiome: "La {BiomeName} está fría, ¡me recuerda a Ice Cap!"
+					DislikeBiome: No me gusta {BiomeName}...
+					HateBiome: Odio el agua, me asusta...
+					LoveNPC: ¿Crees que {NPCName} me ve?
+					LikeNPC: Me agrada {NPCName} porque me recuerda a "Tails".
+					DislikeNPC: '''"{NPCName} sigue intentando arrancarme una púa y venderla... ¿Podrías pedirle que pare?"'''
+					HateNPC: ¡Odio la bulla que hace {NPCName} y sus explosivos! ¡Sólo quiero paz y tranquilidad!
+					LikeNPC_Princess: "¿{NPCName} es una princesa? ¡Genial!"
+					Princess_LovesNPC: "{NPCName} es tan mono y confiado. ¡Me encanta!"
+				}
+			}
+
+			SHADOW: {
+				DisplayName: Erizo
+
+				Chat: {
+					Normal1: No me molestes, no estoy de humor...
+					Normal2: ¿Sonic dice que puede ganarme en una carrera? ¡Ja! Incrédulo...
+					Normal3: María... ¿Qué es lo que debo hacer ahora?
+				}
+
+				TownNPCMood: {
+					Content: Hmm....
+					NoHome: Estoy acostumbrado a no tener hogar, pero no me importaría tener uno.
+					FarFromHome: Mi casa se encuentra muy lejos... Nada que no pueda resolver un Chaos Control.
+					LoveSpace: Este sitio es agradable...
+					DislikeCrowded: Mucha gente conviviendo junto a mí... es molesto...
+					HateCrowded: Diles a todos que si no me dejan en paz, los volaré en pedazos con un Chaos Blast.
+					LoveBiome: Me encanta el {BiomeName}, me recuerda a Green Hill...
+					LikeBiome: "La {BiomeName} está fría, ¡me recuerda a Ice Cap!"
+					DislikeBiome: No me gusta {BiomeName}...
+					HateBiome: Odio el agua, me asusta...
+					LoveNPC: ¿Crees que {NPCName} me ve?
+					LikeNPC: Me agrada {NPCName} porque me recuerda a "Tails".
+					DislikeNPC: '''"{NPCName} sigue intentando arrancarme una púa y venderla... ¿Podrías pedirle que pare?"'''
+					HateNPC: ¡Odio la bulla que hace {NPCName} y sus explosivos! ¡Sólo quiero paz y tranquilidad!
+					LikeNPC_Princess: "¿{NPCName} es una princesa? Hmm, tengo recuerdos de estar con otra princesa..."
+					Princess_LovesNPC: "{NPCName} es tan serio y solitario... Nadie debe estar solo, ¿sabes?"
+				}	
+
+				# This key is generated and used when the "Census" mod is enabled: It allows the user to see the spawn condition of this town NPC in the Housing UI
+				Census.SpawnCondition: Have either an {$Items.ExampleItem.DisplayName} [i:ExampleMod/ExampleItem] or an {$Items.ExampleBlock.DisplayName} [i:ExampleMod/ExampleBlock] in your inventory
+			}
+		}
+	}
+}
